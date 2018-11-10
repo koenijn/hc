@@ -9,14 +9,14 @@ import (
 	_ "time"
 
 	"github.com/brutella/dnssd"
-	"github.com/brutella/hc/accessory"
-	"github.com/brutella/hc/characteristic"
-	"github.com/brutella/hc/db"
-	"github.com/brutella/hc/event"
-	"github.com/brutella/hc/hap"
-	"github.com/brutella/hc/hap/http"
-	"github.com/brutella/hc/log"
-	"github.com/brutella/hc/util"
+	"github.com/koenijn/hc/accessory"
+	"github.com/koenijn/hc/characteristic"
+	"github.com/koenijn/hc/db"
+	"github.com/koenijn/hc/event"
+	"github.com/koenijn/hc/hap"
+	"github.com/koenijn/hc/hap/http"
+	"github.com/koenijn/hc/log"
+	"github.com/koenijn/hc/util"
 	"github.com/gosexy/to"
 )
 

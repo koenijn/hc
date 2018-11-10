@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/koenijn/hc/characteristic"
 )
 
 // Service is an HomeKit service consisting of characteristics.

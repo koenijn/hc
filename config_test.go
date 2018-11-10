@@ -1,7 +1,7 @@
 package hc
 
 import (
-	"github.com/brutella/hc/util"
+	"github.com/koenijn/hc/util"
 	"reflect"
 	"testing"
 )

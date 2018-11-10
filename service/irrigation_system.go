@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/brutella/hc/characteristic"
+	"github.com/koenijn/hc/characteristic"
 )
 
 const TypeIrrigationSystem = "CF"
