@@ -15,10 +15,10 @@ func NewThermostat(info Info, temp, min, max, steps float64) *Thermostat {
 	acc := Thermostat{}
 	acc.Accessory = New(info, TypeThermostat)
 	acc.Thermostat = service.NewThermostat()
-	acc.Thermostat.CurrentTemperature.SetValue(temp)
-	acc.Thermostat.CurrentTemperature.SetMinValue(min)
-	acc.Thermostat.CurrentTemperature.SetMaxValue(max)
-	acc.Thermostat.CurrentTemperature.SetStepValue(steps)
+	acc.Thermostat.CurrentTemperature.SetValue(0)
+	acc.Thermostat.CurrentTemperature.SetMinValue(0)
+	acc.Thermostat.CurrentTemperature.SetMaxValue(100)
+	acc.Thermostat.CurrentTemperature.SetStepValue(0.1)
 
 	acc.Thermostat.TargetTemperature.SetValue(temp)
 	acc.Thermostat.TargetTemperature.SetMinValue(min)
